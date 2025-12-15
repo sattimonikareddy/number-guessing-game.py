@@ -10,7 +10,7 @@ attempts = 0
 
 # Step 3: Loop until the player guesses correctly
 while True:
-    guess = int(input("Guess a number between 1 and 10: "))
+    guess = int(input("Guess a number between 1 and 100: "))
     attempts += 1   # count each guess
 
     if guess == secret_number:
@@ -20,4 +20,5 @@ while True:
         print("Too low, try again!")
     else:
         print("Too high, try again!")
+
 
