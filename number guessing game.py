@@ -2,8 +2,8 @@ import random
 
 print("Welcome to Monika's Number Guessing Game!")
 
-# Step 1: Generate a random secret number between 1 and 10
-secret_number = random.randint(1, 10)
+# Step 1: Generate a random secret number between 1 and 100
+secret_number = random.randint(1, 1000)
 
 # Step 2: Keep track of attempts
 attempts = 0
@@ -20,3 +20,4 @@ while True:
         print("Too low, try again!")
     else:
         print("Too high, try again!")
+
