@@ -14,10 +14,8 @@ A beginner-friendly Python console game where the computer randomly selects a se
 ## 📦 How to Run
 
 To play the Number Guessing Game on your computer:
-
-1. **Clone the repository**  
-   Open your terminal or command prompt and run:
-   ```bash
-   git clone https://github.com/sattimonikareddy/number-guessing-game.py.git
+<a href="https://replit.com/@monikareddy75/number-guessing-gamepy" class="btn" target="_blank">
+  Play Live Demo
+</a>
 
 
